@@ -45,16 +45,17 @@ h1{
 	outline:none;
 	width:8em;
 	height:2em;
-	-webkit-text-align:center;
-	text-align:center;
+	font-size:2em;
+	-webkit-text-align-last:center;
+	text-align-last:center; 
 	background:rgba(255, 255, 255, 0.8);
 	border-radius:5px;
 	outline:none;
 }
 
 .cur{
-	text-align:center;
-	background:white;
+	font-size:0.5em;
+	background:rgba(255, 255, 255, 0.8);
 }
 
 #share-buttons{
@@ -130,11 +131,7 @@ a{
 		font-size:6em;
 		padding: 0 10px;
 	}
-	.widget{
-		width: 70%;
-		display: block;
-		margin:100px auto;
-	}
+	
 }
 
 @media only screen
@@ -150,6 +147,8 @@ a{
 	}
 	#curr{
 		margin:10px auto;
+		width:16em;
+		height:4em; 
 	}
 	.share{
 		margin-top: -60px;
@@ -158,11 +157,6 @@ a{
 	a{
 		font-size:6em;
 		padding: 0 10px;
-	}
-	.widget{
-		width: 70%;
-		display: block;
-		margin:100px auto;
 	}
 
   }
@@ -181,6 +175,8 @@ a{
 	}
 	#curr{
 		margin:10px auto;
+		width:16em;
+		height:4em;
 	}
 	.share{
 		margin-top: -60px;
@@ -189,11 +185,6 @@ a{
 	a{
 		font-size:6em;
 		padding: 0 10px;
-	}
-	.widget{
-		width: 70%;
-		display: block;
-		margin:100px auto;
 	}
   }
 
@@ -217,11 +208,6 @@ a{
 	a{
 		font-size:6em;
 		padding: 0 10px;
-	}
-	.widget{
-		width: 70%;
-		display: block;
-		margin:100px auto;
 	}
 }
 
@@ -247,11 +233,7 @@ a{
 		font-size:6em;
 		padding: 0 10px;
 	}
-	.widget{
-		width: 70%;
-		display: block;
-		margin:100px auto;
-	}
+	
 }
 
 @media only screen
@@ -276,11 +258,7 @@ a{
 		font-size:6em;
 		padding: 0 10px;
 	}
-	.widget{
-		width: 70%;
-		display: block;
-		margin:70px auto;
-	}
+
 }
 
 @media only screen
@@ -305,11 +283,7 @@ a{
 		font-size:6em;
 		padding: 0 10px;
 	}
-	.widget{
-		width: 70%;
-		display: block;
-		margin:70px auto;
-	}
+
 }
 
 @media only screen
@@ -329,9 +303,5 @@ a{
 		font-size:6em;
 		padding: 0 10px;
 	}
-	.widget{
-		width: 45%;
-		display: block;
-		margin:80px auto;
-	}
+
   }
