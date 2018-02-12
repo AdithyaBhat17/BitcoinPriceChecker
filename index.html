@@ -13,7 +13,7 @@
 	<div class="container">
 		<h1>Bitcoin Price <br></h1><span id="price"></span>
 		<select class="selectpicker show-tick" id="curr">
-		  <option class="cur" value="inr"><p>INR</p></option>
+		  <option class="cur" value="inr"><p style="text-align:center;">INR</p></option>
 		  <option class="cur" value="gbp">GBP</option>
 		  <option class="cur" value="eur">EUR</option>
 		  <option class="cur" value="usd">USD</option>
@@ -27,7 +27,7 @@
 	        <i class="fa fa-facebook" aria-hidden="true"></i>
 	    </a>	    
 	    <!-- Google+ -->
-	    <a class="whatsapp" href="whatsapp://send?text="https://adithyabhat17.github.io/BitcoinPriceChecker/">
+	    <a class="whatsapp" href="whatsapp://send?text="https://adithyabhat17.github.io/BitcoinPriceChecker/" data-action="share/whatsapp/share" target="_blank">
 	        <i class="fa fa-whatsapp" aria-hidden="true"></i>
 	    </a>
 	    <!-- LinkedIn -->
@@ -40,7 +40,9 @@
 	    </a>
 	</p>
 
-	<div class="widget">
+	<div id="gobtc-widget-chart" style="background-color:rgba(0, 0, 0, 0.7);width:98%;display:block;margin:20px auto;" data-lang="en" data-cur="INR"></div>
+<script type="text/javascript" src="https://widgets.gobitcoin.io/chart.js"></script>
+	<!-- <div class="widget">
 		<div class="btcwdgt-news" bw-entries="10"></div>
 	</div>
 	<script>
@@ -51,7 +53,7 @@
       I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
     },false)
   })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
-</script>
+</script> -->
 
     <script  src="js/index.js"></script>
 
