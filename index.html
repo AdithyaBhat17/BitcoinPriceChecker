@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Bitcoin price </title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Raleway:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Bitcoin Price <br></h1><span id="price"></span>
+		<select class="selectpicker show-tick" id="curr">
+		  <option class="cur" value="inr"><p>INR</p></option>
+		  <option class="cur" value="gbp">GBP</option>
+		  <option class="cur" value="eur">EUR</option>
+		  <option class="cur" value="usd">USD</option>
+		</select>
+	</div>
+	  
+	<h6 class="share">Share via:</h6>
+	<p id="share-buttons">    	 
+	    <!-- Facebook -->
+	    <a class="facebook" href="http://www.facebook.com/sharer.php?u=https://.com" target="_blank">
+	        <i class="fa fa-facebook" aria-hidden="true"></i>
+	    </a>	    
+	    <!-- Google+ -->
+	    <a class="whatsapp" href="whatsapp://send?text="">
+	        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+	    </a>
+	    <!-- LinkedIn -->
+	    <a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://" target="_blank">
+	        <i class="fa fa-linkedin" aria-hidden="true"></i>
+	    </a>
+	    <!-- Twitter -->
+	    <a class="twitter" href="https://twitter.com/share?url=" target="_blank">
+	        <i class="fa fa-twitter" aria-hidden="true"></i>
+	    </a>
+	</p>
+
+	<div class="widget">
+		<div class="btcwdgt-news" bw-entries="10"></div>
+	</div>
+	<script>
+  (function(b,i,t,C,O,I,N) {
+    window.addEventListener('load',function() {
+      if(b.getElementById(C))return;
+      I=b.createElement(i),N=b.getElementsByTagName(i)[0];
+      I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
+    },false)
+  })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
+</script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+
+</html>
