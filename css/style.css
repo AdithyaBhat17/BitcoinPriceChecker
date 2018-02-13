@@ -70,6 +70,7 @@ h1{
 	font-weight: 700;
 }
 
+
 a{
 	color:grey;
 	text-decoration:none;
@@ -102,9 +103,10 @@ a{
 	color:white;
 }
 
-.widget{
-	width:50%;
-	margin:2em auto;
+#gobtc-widget-chart{
+	width:98%;
+	display:block;
+	margin:6em auto;
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
@@ -115,6 +117,7 @@ a{
   and (max-device-height: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
   	.container{
+  		margin:8vh auto;
 		width:90%;		
 	}
 	#price{
@@ -124,7 +127,7 @@ a{
 		margin:10px auto;
 	}
 	.share{
-		margin-top: -100px;
+		margin-top: -40px;
 		font-size:4em;
 	}
 	a{
@@ -133,13 +136,14 @@ a{
 	}
 	
 }
-
+/*most android 5.2" screens*/
 @media only screen
   and (min-device-width:321px) 
   and (min-device-height:481px) 
   and (max-device-width: 360px) 
   and (max-device-height: 640px){
   	.container{
+  		margin:5vh auto;
 		width:90%;		
 	}
 	#price{
@@ -151,16 +155,19 @@ a{
 		height:4em; 
 	}
 	.share{
-		margin-top: -60px;
+		margin-top: -10px;
 		font-size:4em;
 	}
 	a{
 		font-size:6em;
 		padding: 0 10px;
 	}
+	#gobtc-widget-chart{
+		margin:1em auto;
+	}
 
   }
-
+/*iphone 6,7,8*/
 @media only screen
   and (min-device-width: 361px) 
   and (min-device-height: 640px) 
@@ -179,7 +186,7 @@ a{
 		height:4em;
 	}
 	.share{
-		margin-top: -60px;
+		margin-top: -100px;
 		font-size:4em;
 	}
 	a{
@@ -187,7 +194,7 @@ a{
 		padding: 0 10px;
 	}
   }
-
+/*iphone X*/
 @media only screen
   and (device-width: 375px) 
   and (device-height: 812px){
@@ -210,13 +217,13 @@ a{
 		padding: 0 10px;
 	}
 }
-
+/*iphone 6+,7+,8+,and all 5.5" screens*/
 @media only screen
   and (min-device-width: 376px)  
   and (max-device-width: 414px) 
   and (max-device-height: 736px){
   	.container{
-  		margin-top:15vh;
+  		margin-top:10vh;
 		width:90%;		
 	}
 	#price{
@@ -226,7 +233,7 @@ a{
 		margin:10px auto;
 	}
 	.share{
-		margin-top: -60px;
+		margin-top: -100px;
 		font-size:4em;
 	}
 	a{
@@ -236,12 +243,14 @@ a{
 	
 }
 
+/*ipad*/
 @media only screen
   and (min-device-width: 415px) 
   and (min-device-height: 737px) 
   and (max-device-width: 768px) 
   and (max-device-height: 1024px){
   	.container{
+  		margin:4vh auto;
 		width:90%;		
 	}
 	#price{
@@ -251,22 +260,26 @@ a{
 		margin:10px auto;
 	}
 	.share{
-		margin-top: -80px;
+		margin-top: -40px;
 		font-size:4em;
 	}
 	a{
 		font-size:6em;
 		padding: 0 10px;
 	}
+	#gobtc-widget-chart{
+		margin:2em auto;
+	}
 
 }
-
+/*ipad pro*/
 @media only screen
   and (min-device-width: 769px) 
   and (min-device-height: 1025px) 
   and (max-device-width: 1024px) 
   and (max-device-height: 1366px){
   	.container{
+  		margin:5vh auto;
 		width:90%;		
 	}
 	#price{
@@ -276,12 +289,15 @@ a{
 		margin:10px auto;
 	}
 	.share{
-		margin-top: -60px;
+		margin-top: -30px;
 		font-size:4em;
 	}
 	a{
 		font-size:6em;
 		padding: 0 10px;
+	}
+	#gobtc-widget-chart{
+		margin:2em auto;
 	}
 
 }
@@ -289,6 +305,9 @@ a{
 @media only screen
   and (min-device-width: 1500px) 
   and (min-device-height: 1400px) {
+  	.container{
+  		margin:5vh auto;
+  	}
 	#price{
 		font-size:8em;
 	}
@@ -296,12 +315,16 @@ a{
 		margin:10px auto;
 	}
 	.share{
-		margin-top: -60px;
+		margin-top: -30px;
 		font-size:4em;
 	}
 	a{
 		font-size:6em;
 		padding: 0 10px;
+	}
+	#gobtc-widget-chart{
+		width:70%;
+		margin:2em auto;
 	}
 
   }
